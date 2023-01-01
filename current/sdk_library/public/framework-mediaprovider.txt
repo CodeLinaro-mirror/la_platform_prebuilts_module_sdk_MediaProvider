@@ -443,6 +443,11 @@ package android.provider {
     field public static final int MEDIA_TYPE_VIDEO = 3; // 0x3
     field public static final String MIME_TYPE = "mime_type";
     field public static final String PARENT = "parent";
+    field public static final String SPECIAL_FORMAT = "_special_format";
+    field public static final int SPECIAL_FORMAT_ANIMATED_WEBP = 3; // 0x3
+    field public static final int SPECIAL_FORMAT_GIF = 1; // 0x1
+    field public static final int SPECIAL_FORMAT_MOTION_PHOTO = 2; // 0x2
+    field public static final int SPECIAL_FORMAT_NONE = 0; // 0x0
   }
 
   public static final class MediaStore.Images {
