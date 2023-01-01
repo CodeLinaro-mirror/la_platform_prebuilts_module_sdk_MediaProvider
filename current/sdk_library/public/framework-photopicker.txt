@@ -12,19 +12,26 @@ package android.widget.photopicker {
   public final class EmbeddedPhotoPickerFeatureInfo implements android.os.Parcelable {
     method public int describeContents();
     method @ColorLong public long getAccentColor();
+    method @Nullable public android.widget.photopicker.EmbeddedPhotoPickerUiCustomizationParams getEmbeddedUiCustomizationParams();
     method @NonNull public String getHighlightAlbumId();
     method @NonNull public String getHighlightSearchMediaTextQuery();
     method public int getHighlightType();
+    method public int getLaunchTab();
     method public int getMaxSelectionLimit();
     method @NonNull public java.util.List<java.lang.String> getMimeTypes();
     method @NonNull public java.util.List<android.net.Uri> getPreSelectedUris();
     method @Nullable public android.widget.photopicker.PhotoPickerSelectionParams getSelectionParams();
     method public int getThemeNightMode();
-    method @Nullable public android.widget.photopicker.PhotoPickerUiCustomizationParams getUiCustomizationParams();
+    method @Deprecated @Nullable public android.widget.photopicker.PhotoPickerUiCustomizationParams getUiCustomizationParams();
+    method public boolean isCollapsedModeScrollingEnabled();
+    method public boolean isLocationMetadataRequested();
     method public boolean isOrderedSelection();
     method public boolean isPickerLaunchedInExpandedState();
     method public void writeToParcel(@NonNull android.os.Parcel, int);
     field @NonNull public static final android.os.Parcelable.Creator<android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo> CREATOR;
+    field public static final int TAB_ALBUMS = 0; // 0x0
+    field public static final int TAB_IMAGES = 1; // 0x1
+    field public static final int TAB_UNSET = -1; // 0xffffffff
   }
 
   public static final class EmbeddedPhotoPickerFeatureInfo.Builder {
@@ -32,17 +39,21 @@ package android.widget.photopicker {
     ctor public EmbeddedPhotoPickerFeatureInfo.Builder(@NonNull android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo build();
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setAccentColor(@ColorLong long);
+    method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setCollapsedModeScrollingEnabled(boolean);
+    method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setEmbeddedUiCustomizationParams(@Nullable android.widget.photopicker.EmbeddedPhotoPickerUiCustomizationParams);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setHighlightAlbumId(@NonNull String);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setHighlightSearchMediaTextQuery(@NonNull String);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setHighlightType(int);
+    method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setLaunchTab(int);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setMaxSelectionLimit(@IntRange(from=1) int);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setMimeTypes(@NonNull java.util.List<java.lang.String>);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setOrderedSelection(boolean);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setPickerLaunchedInExpandedState(boolean);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setPreSelectedUris(@NonNull java.util.List<android.net.Uri>);
+    method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setRequestLocationMetadata(boolean);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setSelectionParams(@Nullable android.widget.photopicker.PhotoPickerSelectionParams);
     method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setThemeNightMode(int);
-    method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setUiCustomizationParams(@Nullable android.widget.photopicker.PhotoPickerUiCustomizationParams);
+    method @Deprecated @NonNull public android.widget.photopicker.EmbeddedPhotoPickerFeatureInfo.Builder setUiCustomizationParams(@Nullable android.widget.photopicker.PhotoPickerUiCustomizationParams);
   }
 
   public interface EmbeddedPhotoPickerProvider {
@@ -61,6 +72,24 @@ package android.widget.photopicker {
     method public void notifyResized(int, int);
     method public void notifyVisibilityChanged(boolean);
     method public void requestRevokeUriPermission(@NonNull java.util.List<android.net.Uri>);
+  }
+
+  public final class EmbeddedPhotoPickerUiCustomizationParams implements android.os.Parcelable {
+    method public int describeContents();
+    method public int getAspectRatio();
+    method public boolean isSelectionBarVisibleInExpandedMode();
+    method public void writeToParcel(@NonNull android.os.Parcel, int);
+    field public static final int ASPECT_RATIO_PORTRAIT_9_16 = 1; // 0x1
+    field public static final int ASPECT_RATIO_SQUARE_1_1 = 0; // 0x0
+    field public static final int ASPECT_RATIO_UNDEFINED = -1; // 0xffffffff
+    field @NonNull public static final android.os.Parcelable.Creator<android.widget.photopicker.EmbeddedPhotoPickerUiCustomizationParams> CREATOR;
+  }
+
+  public static final class EmbeddedPhotoPickerUiCustomizationParams.Builder {
+    ctor public EmbeddedPhotoPickerUiCustomizationParams.Builder();
+    method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerUiCustomizationParams build();
+    method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerUiCustomizationParams.Builder setAspectRatio(int);
+    method @NonNull public android.widget.photopicker.EmbeddedPhotoPickerUiCustomizationParams.Builder setSelectionBarVisibleInExpandedMode(boolean);
   }
 
   public final class PhotoPickerSelectionParams implements android.os.Parcelable {
