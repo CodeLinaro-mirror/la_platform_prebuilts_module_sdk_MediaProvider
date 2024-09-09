@@ -63,11 +63,6 @@ prebuilt_platform_compat_config {
 
 prebuilt_platform_compat_config {
     name: "framework-pdf-v-platform-compat-config",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "mediaprovider_module" is true.
-    use_source_config_var: {
-        config_namespace: "mediaprovider_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     licenses: ["mediaprovider-module-sdk_Android-Apache-2.0"],
     metadata: "compat_configs/framework-pdf-v-platform-compat-config/framework-pdf-v-platform-compat-config_meta.xml",
