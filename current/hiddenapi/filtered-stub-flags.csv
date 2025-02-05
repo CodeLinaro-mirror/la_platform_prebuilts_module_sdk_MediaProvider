@@ -131,6 +131,8 @@ Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/graphics/pdf/flags/readonly/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/graphics/pdf/flags/readonly/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/graphics/pdf/models/FormEditRecord$$ExternalSyntheticLambda0;->get()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/graphics/pdf/models/FormEditRecord$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/graphics/pdf/models/FormEditRecord$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
@@ -828,6 +830,8 @@ Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLamb
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda25;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda26;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda27;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda28;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda29;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -949,6 +953,8 @@ Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda24
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda25;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda26;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda27;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda28;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda29;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api

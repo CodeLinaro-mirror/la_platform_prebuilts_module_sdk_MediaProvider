@@ -18,7 +18,7 @@
   <compat-change enableAfterTargetSdk="35" id="310703690" name="ENABLE_OWNED_PHOTOS">
     <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:511" />
   </compat-change>
-  <compat-change enableSinceTargetSdk="10000" id="343977174" name="LOCKDOWN_MEDIASTORE_VERSION">
+  <compat-change enableSinceTargetSdk="36" id="343977174" name="LOCKDOWN_MEDIASTORE_VERSION">
     <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:552" />
   </compat-change>
   <compat-change disabled="true" id="174228127" name="FORCE_ENABLE_HEVC_SUPPORT">
