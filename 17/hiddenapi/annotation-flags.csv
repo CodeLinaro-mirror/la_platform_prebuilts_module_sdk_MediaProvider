@@ -30,6 +30,7 @@ Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerTransco
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableStableUrisForExternalPrimaryVolume()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableStableUrisForPublicVolume()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableUnicodeCheck()Z,unsupported
+Lcom/android/providers/media/flags/CustomFeatureFlags;->excludeUnreliableVolumes()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->indexMediaLatitudeLongitude()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->inferredMediaDate()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->mediaCognitionService()Z,unsupported
@@ -60,6 +61,7 @@ Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerTranscoding()
 Lcom/android/providers/media/flags/FeatureFlags;->enableStableUrisForExternalPrimaryVolume()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableStableUrisForPublicVolume()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableUnicodeCheck()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlags;->excludeUnreliableVolumes()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->indexMediaLatitudeLongitude()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->inferredMediaDate()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->mediaCognitionService()Z,unsupported
@@ -90,6 +92,7 @@ Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerTranscodi
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableStableUrisForExternalPrimaryVolume()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableStableUrisForPublicVolume()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableUnicodeCheck()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlagsImpl;->excludeUnreliableVolumes()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->indexMediaLatitudeLongitude()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->inferredMediaDate()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->mediaCognitionService()Z,unsupported
@@ -120,6 +123,7 @@ Lcom/android/providers/media/flags/Flags;->enablePhotopickerTranscoding()Z,unsup
 Lcom/android/providers/media/flags/Flags;->enableStableUrisForExternalPrimaryVolume()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableStableUrisForPublicVolume()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableUnicodeCheck()Z,unsupported
+Lcom/android/providers/media/flags/Flags;->excludeUnreliableVolumes()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->indexMediaLatitudeLongitude()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->inferredMediaDate()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->mediaCognitionService()Z,unsupported
