@@ -23,7 +23,6 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMaliciousAppDetector()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkIsFavoriteStatusApi()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkMediaAsFavoriteApi()Z|,||,||
-|Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableOemMetadata()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerExpressiveTheme()Z|,||,||
@@ -55,7 +54,6 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/FeatureFlags;->enableMaliciousAppDetector()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableMarkIsFavoriteStatusApi()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableMarkMediaAsFavoriteApi()Z|,||,||
-|Lcom/android/providers/media/flags/FeatureFlags;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableOemMetadata()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerExpressiveTheme()Z|,||,||
@@ -87,7 +85,6 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMaliciousAppDetector()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkIsFavoriteStatusApi()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkMediaAsFavoriteApi()Z|,||,||
-|Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableOemMetadata()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerExpressiveTheme()Z|,||,||
@@ -119,7 +116,6 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/Flags;->enableMaliciousAppDetector()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableMarkIsFavoriteStatusApi()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableMarkMediaAsFavoriteApi()Z|,||,||
-|Lcom/android/providers/media/flags/Flags;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableOemMetadata()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enablePhotopickerExpressiveTheme()Z|,||,||

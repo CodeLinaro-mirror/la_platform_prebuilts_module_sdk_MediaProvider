@@ -881,7 +881,6 @@ Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLamb
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda29;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda30;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda31;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
@@ -1006,7 +1005,6 @@ Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda28
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda29;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda30;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda31;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
@@ -1024,7 +1022,6 @@ Lcom/android/providers/media/flags/CustomFeatureFlags;->enableExclusionListForDe
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMaliciousAppDetector()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkIsFavoriteStatusApi()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkMediaAsFavoriteApi()Z,unsupported
-Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableOemMetadata()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerExpressiveTheme()Z,unsupported
@@ -1056,7 +1053,6 @@ Lcom/android/providers/media/flags/FeatureFlags;->enableExclusionListForDefaultF
 Lcom/android/providers/media/flags/FeatureFlags;->enableMaliciousAppDetector()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableMarkIsFavoriteStatusApi()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableMarkMediaAsFavoriteApi()Z,unsupported
-Lcom/android/providers/media/flags/FeatureFlags;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableOemMetadata()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerExpressiveTheme()Z,unsupported
@@ -1088,7 +1084,6 @@ Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableExclusionListForDefa
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMaliciousAppDetector()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkIsFavoriteStatusApi()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkMediaAsFavoriteApi()Z,unsupported
-Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableOemMetadata()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerExpressiveTheme()Z,unsupported
@@ -1120,7 +1115,6 @@ Lcom/android/providers/media/flags/Flags;->enableExclusionListForDefaultFolders(
 Lcom/android/providers/media/flags/Flags;->enableMaliciousAppDetector()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableMarkIsFavoriteStatusApi()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableMarkMediaAsFavoriteApi()Z,unsupported
-Lcom/android/providers/media/flags/Flags;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableOemMetadata()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enablePhotopickerExpressiveTheme()Z,unsupported
