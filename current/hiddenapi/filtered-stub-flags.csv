@@ -833,6 +833,8 @@ Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLamb
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda28;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda29;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda30;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda31;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -956,6 +958,8 @@ Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda27
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda28;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda29;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda30;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda31;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/providers/media/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
