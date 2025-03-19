@@ -26,6 +26,8 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableOemMetadata()Z|,||,||
+|Lcom/android/providers/media/flags/CustomFeatureFlags;->enableOemMetadataUpdate()Z|,||,||
+|Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerDatescrubber()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerExpressiveTheme()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerSearch()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerTranscoding()Z|,||,||
@@ -58,6 +60,8 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/FeatureFlags;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableOemMetadata()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlags;->enableOemMetadataUpdate()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerDatescrubber()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerExpressiveTheme()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerSearch()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerTranscoding()Z|,||,||
@@ -90,6 +94,8 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableOemMetadata()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableOemMetadataUpdate()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerDatescrubber()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerExpressiveTheme()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerSearch()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerTranscoding()Z|,||,||
@@ -122,6 +128,8 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/Flags;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableOemMetadata()Z|,||,||
+|Lcom/android/providers/media/flags/Flags;->enableOemMetadataUpdate()Z|,||,||
+|Lcom/android/providers/media/flags/Flags;->enablePhotopickerDatescrubber()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enablePhotopickerExpressiveTheme()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enablePhotopickerSearch()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enablePhotopickerTranscoding()Z|,||,||
