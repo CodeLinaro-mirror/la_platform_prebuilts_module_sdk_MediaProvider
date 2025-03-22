@@ -25,6 +25,8 @@ Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkMediaAsFavorit
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableOemMetadata()Z,unsupported
+Lcom/android/providers/media/flags/CustomFeatureFlags;->enableOemMetadataUpdate()Z,unsupported
+Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerDatescrubber()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerExpressiveTheme()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerSearch()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerTranscoding()Z,unsupported
@@ -57,6 +59,8 @@ Lcom/android/providers/media/flags/FeatureFlags;->enableMarkMediaAsFavoriteApi()
 Lcom/android/providers/media/flags/FeatureFlags;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableOemMetadata()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlags;->enableOemMetadataUpdate()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerDatescrubber()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerExpressiveTheme()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerSearch()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerTranscoding()Z,unsupported
@@ -89,6 +93,8 @@ Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkMediaAsFavoriteA
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableOemMetadata()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableOemMetadataUpdate()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerDatescrubber()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerExpressiveTheme()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerSearch()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerTranscoding()Z,unsupported
@@ -121,6 +127,8 @@ Lcom/android/providers/media/flags/Flags;->enableMarkMediaAsFavoriteApi()Z,unsup
 Lcom/android/providers/media/flags/Flags;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableOemMetadata()Z,unsupported
+Lcom/android/providers/media/flags/Flags;->enableOemMetadataUpdate()Z,unsupported
+Lcom/android/providers/media/flags/Flags;->enablePhotopickerDatescrubber()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enablePhotopickerExpressiveTheme()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enablePhotopickerSearch()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enablePhotopickerTranscoding()Z,unsupported
