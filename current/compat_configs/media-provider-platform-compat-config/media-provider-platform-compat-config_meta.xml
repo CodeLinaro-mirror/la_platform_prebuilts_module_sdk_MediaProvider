@@ -1,28 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <config>
   <compat-change enableAfterTargetSdk="30" id="178209446" name="ENABLE_RAW_MANAGE_EXTERNAL_STORAGE_ACCESS">
-    <meta-data definedIn="com.android.providers.media.LocalCallingIdentity" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/LocalCallingIdentity.java:488" />
+    <meta-data definedIn="com.android.providers.media.LocalCallingIdentity" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/LocalCallingIdentity.java:493" />
   </compat-change>
   <compat-change enableSinceTargetSdk="30" id="183372781" name="ENABLE_RAW_SYSTEM_GALLERY_ACCESS">
-    <meta-data definedIn="com.android.providers.media.LocalCallingIdentity" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/LocalCallingIdentity.java:496" />
+    <meta-data definedIn="com.android.providers.media.LocalCallingIdentity" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/LocalCallingIdentity.java:501" />
   </compat-change>
   <compat-change enableAfterTargetSdk="30" id="172100307" name="ENABLE_CHECKS_FOR_PRIVATE_FILES">
-    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:395" />
+    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:396" />
   </compat-change>
   <compat-change enableAfterTargetSdk="30" id="180326732" name="ENABLE_DEFERRED_SCAN">
-    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:494" />
+    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:495" />
   </compat-change>
   <compat-change enableAfterTargetSdk="30" id="182734110" name="ENABLE_INCLUDE_ALL_VOLUMES">
-    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:502" />
+    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:503" />
   </compat-change>
   <compat-change enableAfterTargetSdk="35" id="310703690" name="ENABLE_OWNED_PHOTOS">
-    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:512" />
+    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:513" />
+  </compat-change>
+  <compat-change enableSinceTargetSdk="10000" id="391360514" name="EXCLUDE_UNRELIABLE_STORAGE_VOLUMES">
+    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:522" />
   </compat-change>
   <compat-change enableSinceTargetSdk="36" id="343977174" name="LOCKDOWN_MEDIASTORE_VERSION">
-    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:558" />
+    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:570" />
   </compat-change>
   <compat-change enableAfterTargetSdk="35" id="203408344" name="LIMIT_CREATE_REQUEST_URIS">
-    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:566" />
+    <meta-data definedIn="com.android.providers.media.MediaProvider" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/MediaProvider.java:578" />
   </compat-change>
   <compat-change disabled="true" id="174228127" name="FORCE_ENABLE_HEVC_SUPPORT">
     <meta-data definedIn="com.android.providers.media.TranscodeHelperImpl" sourcePosition="packages/providers/MediaProvider/src/com/android/providers/media/TranscodeHelperImpl.java:165" />
