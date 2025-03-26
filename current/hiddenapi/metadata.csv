@@ -19,6 +19,11 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->cloudMediaProviderSearch()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableBackupAndRestore()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableEmbeddedPhotopicker()Z|,||,||
+|Lcom/android/providers/media/flags/CustomFeatureFlags;->enableExclusionListForDefaultFolders()Z|,||,||
+|Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMaliciousAppDetector()Z|,||,||
+|Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkIsFavoriteStatusApi()Z|,||,||
+|Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkMediaAsFavoriteApi()Z|,||,||
+|Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableOemMetadata()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerSearch()Z|,||,||
@@ -38,6 +43,11 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/FeatureFlags;->cloudMediaProviderSearch()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableBackupAndRestore()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableEmbeddedPhotopicker()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlags;->enableExclusionListForDefaultFolders()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlags;->enableMaliciousAppDetector()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlags;->enableMarkIsFavoriteStatusApi()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlags;->enableMarkMediaAsFavoriteApi()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlags;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableOemMetadata()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerSearch()Z|,||,||
@@ -57,6 +67,11 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->cloudMediaProviderSearch()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableBackupAndRestore()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableEmbeddedPhotopicker()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableExclusionListForDefaultFolders()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMaliciousAppDetector()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkIsFavoriteStatusApi()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkMediaAsFavoriteApi()Z|,||,||
+|Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableOemMetadata()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerSearch()Z|,||,||
@@ -76,6 +91,11 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/Flags;->cloudMediaProviderSearch()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableBackupAndRestore()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableEmbeddedPhotopicker()Z|,||,||
+|Lcom/android/providers/media/flags/Flags;->enableExclusionListForDefaultFolders()Z|,||,||
+|Lcom/android/providers/media/flags/Flags;->enableMaliciousAppDetector()Z|,||,||
+|Lcom/android/providers/media/flags/Flags;->enableMarkIsFavoriteStatusApi()Z|,||,||
+|Lcom/android/providers/media/flags/Flags;->enableMarkMediaAsFavoriteApi()Z|,||,||
+|Lcom/android/providers/media/flags/Flags;->enableMimeTypeFixForAndroid15()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableModernPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableOemMetadata()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enablePhotopickerSearch()Z|,||,||

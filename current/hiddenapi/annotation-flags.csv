@@ -18,6 +18,11 @@ Lcom/android/providers/media/flags/CustomFeatureFlags;->audioSampleColumns()Z,un
 Lcom/android/providers/media/flags/CustomFeatureFlags;->cloudMediaProviderSearch()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableBackupAndRestore()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableEmbeddedPhotopicker()Z,unsupported
+Lcom/android/providers/media/flags/CustomFeatureFlags;->enableExclusionListForDefaultFolders()Z,unsupported
+Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMaliciousAppDetector()Z,unsupported
+Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkIsFavoriteStatusApi()Z,unsupported
+Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkMediaAsFavoriteApi()Z,unsupported
+Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enableOemMetadata()Z,unsupported
 Lcom/android/providers/media/flags/CustomFeatureFlags;->enablePhotopickerSearch()Z,unsupported
@@ -37,6 +42,11 @@ Lcom/android/providers/media/flags/FeatureFlags;->audioSampleColumns()Z,unsuppor
 Lcom/android/providers/media/flags/FeatureFlags;->cloudMediaProviderSearch()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableBackupAndRestore()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableEmbeddedPhotopicker()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlags;->enableExclusionListForDefaultFolders()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlags;->enableMaliciousAppDetector()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlags;->enableMarkIsFavoriteStatusApi()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlags;->enableMarkMediaAsFavoriteApi()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlags;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enableOemMetadata()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlags;->enablePhotopickerSearch()Z,unsupported
@@ -56,6 +66,11 @@ Lcom/android/providers/media/flags/FeatureFlagsImpl;->audioSampleColumns()Z,unsu
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->cloudMediaProviderSearch()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableBackupAndRestore()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableEmbeddedPhotopicker()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableExclusionListForDefaultFolders()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMaliciousAppDetector()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkIsFavoriteStatusApi()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkMediaAsFavoriteApi()Z,unsupported
+Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableOemMetadata()Z,unsupported
 Lcom/android/providers/media/flags/FeatureFlagsImpl;->enablePhotopickerSearch()Z,unsupported
@@ -75,6 +90,11 @@ Lcom/android/providers/media/flags/Flags;->audioSampleColumns()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->cloudMediaProviderSearch()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableBackupAndRestore()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableEmbeddedPhotopicker()Z,unsupported
+Lcom/android/providers/media/flags/Flags;->enableExclusionListForDefaultFolders()Z,unsupported
+Lcom/android/providers/media/flags/Flags;->enableMaliciousAppDetector()Z,unsupported
+Lcom/android/providers/media/flags/Flags;->enableMarkIsFavoriteStatusApi()Z,unsupported
+Lcom/android/providers/media/flags/Flags;->enableMarkMediaAsFavoriteApi()Z,unsupported
+Lcom/android/providers/media/flags/Flags;->enableMimeTypeFixForAndroid15()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableModernPhotopicker()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enableOemMetadata()Z,unsupported
 Lcom/android/providers/media/flags/Flags;->enablePhotopickerSearch()Z,unsupported
