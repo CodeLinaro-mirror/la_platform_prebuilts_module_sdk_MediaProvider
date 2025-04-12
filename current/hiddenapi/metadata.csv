@@ -20,7 +20,6 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableBackupAndRestore()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableEmbeddedPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableExclusionListForDefaultFolders()Z|,||,||
-|Lcom/android/providers/media/flags/CustomFeatureFlags;->enableLocalMediaProviderCapabilities()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMaliciousAppDetector()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkIsFavoriteStatusApi()Z|,||,||
 |Lcom/android/providers/media/flags/CustomFeatureFlags;->enableMarkMediaAsFavoriteApi()Z|,||,||
@@ -45,7 +44,6 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/FeatureFlags;->enableBackupAndRestore()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableEmbeddedPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableExclusionListForDefaultFolders()Z|,||,||
-|Lcom/android/providers/media/flags/FeatureFlags;->enableLocalMediaProviderCapabilities()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableMaliciousAppDetector()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableMarkIsFavoriteStatusApi()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlags;->enableMarkMediaAsFavoriteApi()Z|,||,||
@@ -70,7 +68,6 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableBackupAndRestore()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableEmbeddedPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableExclusionListForDefaultFolders()Z|,||,||
-|Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableLocalMediaProviderCapabilities()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMaliciousAppDetector()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkIsFavoriteStatusApi()Z|,||,||
 |Lcom/android/providers/media/flags/FeatureFlagsImpl;->enableMarkMediaAsFavoriteApi()Z|,||,||
@@ -95,7 +92,6 @@ signature,maxTargetSdk,trackingBug
 |Lcom/android/providers/media/flags/Flags;->enableBackupAndRestore()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableEmbeddedPhotopicker()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableExclusionListForDefaultFolders()Z|,||,||
-|Lcom/android/providers/media/flags/Flags;->enableLocalMediaProviderCapabilities()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableMaliciousAppDetector()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableMarkIsFavoriteStatusApi()Z|,||,||
 |Lcom/android/providers/media/flags/Flags;->enableMarkMediaAsFavoriteApi()Z|,||,||
