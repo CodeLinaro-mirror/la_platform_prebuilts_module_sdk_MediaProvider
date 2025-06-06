@@ -13,12 +13,10 @@ android/graphics/pdf/component/PdfAnnotation
 android/graphics/pdf/component/PdfAnnotationType
 android/graphics/pdf/component/PdfPageImageObject
 android/graphics/pdf/component/PdfPageObject
-android/graphics/pdf/component/PdfPageObjectRenderMode
 android/graphics/pdf/component/PdfPageObjectType
 android/graphics/pdf/component/PdfPagePathObject
 android/graphics/pdf/component/PdfPageTextObject
 android/graphics/pdf/component/PdfPageTextObjectFont
-android/graphics/pdf/component/PdfPageTextObjectFontFamily
 android/graphics/pdf/component/StampAnnotation
 android/graphics/pdf/content/PdfPageGotoLinkContent
 android/graphics/pdf/content/PdfPageImageContent
@@ -101,8 +99,3 @@ android/widget/photopicker/IEmbeddedPhotoPickerClient
 android/widget/photopicker/IEmbeddedPhotoPickerSession
 android/widget/photopicker/ParcelableException
 android/widget/photopicker/Placeholder
-com/android/providers/media/flags/CustomFeatureFlags
-com/android/providers/media/flags/FakeFeatureFlagsImpl
-com/android/providers/media/flags/FeatureFlags
-com/android/providers/media/flags/FeatureFlagsImpl
-com/android/providers/media/flags/Flags

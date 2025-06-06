@@ -170,7 +170,7 @@ java_sdk_library_import {
     shared_library: false,
     permitted_packages: [
         "android.widget.photopicker",
-        "com.android.providers.media.flags",
+        "android.provider.media.internal.flags",
     ],
     public: {
         jars: ["sdk_library/public/framework-photopicker-stubs.jar"],
