@@ -36,6 +36,7 @@ package android.graphics.pdf {
     method @NonNull public java.util.List<android.util.Pair<java.lang.Integer,android.graphics.pdf.component.PdfAnnotation>> getPageAnnotations();
     method @NonNull public java.util.List<android.util.Pair<java.lang.Integer,android.graphics.pdf.component.PdfPageObject>> getPageObjects();
     method @NonNull public java.util.List<android.graphics.pdf.content.PdfPageTextContent> getTextContents();
+    method @Nullable public android.util.Pair<java.lang.Integer,android.graphics.pdf.component.PdfPageObject> getTopPageObjectAtPosition(@NonNull android.graphics.PointF, @NonNull int[]);
     method @IntRange(from=0) public int getWidth();
     method public void removePageAnnotation(@IntRange(from=0) int);
     method public void removePageObject(@IntRange(from=0) int);
