@@ -23,7 +23,6 @@ Landroid/graphics/pdf/PdfRenderer$Page;->getLinkContents()Ljava/util/List;,publi
 Landroid/graphics/pdf/PdfRenderer$Page;->getPageAnnotations()Ljava/util/List;,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRenderer$Page;->getPageObjects()Ljava/util/List;,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRenderer$Page;->getTextContents()Ljava/util/List;,public-api,system-api,test-api
-Landroid/graphics/pdf/PdfRenderer$Page;->getTopPageObjectAtPosition(Landroid/graphics/PointF;[I)Landroid/util/Pair;,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRenderer$Page;->getWidth()I,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRenderer$Page;->removePageAnnotation(I)V,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRenderer$Page;->removePageObject(I)V,public-api,system-api,test-api
@@ -66,7 +65,6 @@ Landroid/graphics/pdf/PdfRendererPreV$Page;->getLinkContents()Ljava/util/List;,p
 Landroid/graphics/pdf/PdfRendererPreV$Page;->getPageAnnotations()Ljava/util/List;,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRendererPreV$Page;->getPageObjects()Ljava/util/List;,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRendererPreV$Page;->getTextContents()Ljava/util/List;,public-api,system-api,test-api
-Landroid/graphics/pdf/PdfRendererPreV$Page;->getTopPageObjectAtPosition(Landroid/graphics/PointF;[I)Landroid/util/Pair;,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRendererPreV$Page;->getWidth()I,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRendererPreV$Page;->removePageAnnotation(I)V,public-api,system-api,test-api
 Landroid/graphics/pdf/PdfRendererPreV$Page;->removePageObject(I)V,public-api,system-api,test-api
@@ -94,18 +92,13 @@ Landroid/graphics/pdf/RenderParams$Builder;-><init>(I)V,public-api,system-api,te
 Landroid/graphics/pdf/RenderParams$Builder;->build()Landroid/graphics/pdf/RenderParams;,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams$Builder;->setRenderFlags(I)Landroid/graphics/pdf/RenderParams$Builder;,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams$Builder;->setRenderFlags(II)Landroid/graphics/pdf/RenderParams$Builder;,public-api,system-api,test-api
-Landroid/graphics/pdf/RenderParams$Builder;->setRenderFormContentMode(I)Landroid/graphics/pdf/RenderParams$Builder;,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->FLAG_RENDER_FREETEXT_ANNOTATIONS:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->FLAG_RENDER_HIGHLIGHT_ANNOTATIONS:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->FLAG_RENDER_STAMP_ANNOTATIONS:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->FLAG_RENDER_TEXT_ANNOTATIONS:I,public-api,system-api,test-api
-Landroid/graphics/pdf/RenderParams;->RENDER_FORM_CONTENT_DEFAULT:I,public-api,system-api,test-api
-Landroid/graphics/pdf/RenderParams;->RENDER_FORM_CONTENT_DISABLED:I,public-api,system-api,test-api
-Landroid/graphics/pdf/RenderParams;->RENDER_FORM_CONTENT_ENABLED:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->RENDER_MODE_FOR_DISPLAY:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->RENDER_MODE_FOR_PRINT:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->getRenderFlags()I,public-api,system-api,test-api
-Landroid/graphics/pdf/RenderParams;->getRenderFormContentMode()I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->getRenderMode()I,public-api,system-api,test-api
 Landroid/graphics/pdf/component/FreeTextAnnotation;-><init>(Landroid/graphics/RectF;Ljava/lang/String;)V,public-api,system-api,test-api
 Landroid/graphics/pdf/component/FreeTextAnnotation;->getBackgroundColor()I,public-api,system-api,test-api
@@ -400,12 +393,10 @@ Landroid/provider/CloudMediaProviderContract$Capabilities$1;->createFromParcel(L
 Landroid/provider/CloudMediaProviderContract$Capabilities$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$Capabilities$Builder;-><init>()V,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$Capabilities$Builder;->build()Landroid/provider/CloudMediaProviderContract$Capabilities;,public-api,system-api,test-api
-Landroid/provider/CloudMediaProviderContract$Capabilities$Builder;->setAlbumsAsCategoryEnabled(Z)Landroid/provider/CloudMediaProviderContract$Capabilities$Builder;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$Capabilities$Builder;->setMediaCategoriesEnabled(Z)Landroid/provider/CloudMediaProviderContract$Capabilities$Builder;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$Capabilities$Builder;->setSearchEnabled(Z)Landroid/provider/CloudMediaProviderContract$Capabilities$Builder;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$Capabilities;->CREATOR:Landroid/os/Parcelable$Creator;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$Capabilities;->describeContents()I,public-api,system-api,test-api
-Landroid/provider/CloudMediaProviderContract$Capabilities;->isAlbumsAsCategoryEnabled()Z,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$Capabilities;->isMediaCategoriesEnabled()Z,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$Capabilities;->isSearchEnabled()Z,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$Capabilities;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
@@ -456,7 +447,6 @@ Landroid/provider/CloudMediaProviderContract;->EXTRA_SURFACE_CONTROLLER_AUDIO_MU
 Landroid/provider/CloudMediaProviderContract;->EXTRA_SYNC_GENERATION:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->MANAGE_CLOUD_MEDIA_PROVIDERS_PERMISSION:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->MEDIA_CATEGORY_TYPE_PEOPLE_AND_PETS:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/CloudMediaProviderContract;->MEDIA_CATEGORY_TYPE_USER_ALBUMS:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->PROVIDER_INTERFACE:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->SEARCH_SUGGESTION_ALBUM:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->SEARCH_SUGGESTION_DATE:Ljava/lang/String;,public-api,system-api,test-api
@@ -828,8 +818,6 @@ Landroid/provider/MediaStore;->EXTRA_MEDIA_TITLE:Ljava/lang/String;,public-api,s
 Landroid/provider/MediaStore;->EXTRA_OUTPUT:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->EXTRA_PICKER_PRE_SELECTION_URIS:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->EXTRA_PICK_IMAGES_ACCENT_COLOR:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->EXTRA_PICK_IMAGES_HIGHLIGHT_ALBUM:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->EXTRA_PICK_IMAGES_HIGHLIGHT_SEARCH_RESULTS:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->EXTRA_PICK_IMAGES_IN_ORDER:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->EXTRA_PICK_IMAGES_LAUNCH_TAB:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->EXTRA_PICK_IMAGES_MAX:Ljava/lang/String;,public-api,system-api,test-api
@@ -845,9 +833,6 @@ Landroid/provider/MediaStore;->INTENT_ACTION_STILL_IMAGE_CAMERA_SECURE:Ljava/lan
 Landroid/provider/MediaStore;->INTENT_ACTION_TEXT_OPEN_FROM_SEARCH:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->INTENT_ACTION_VIDEO_CAMERA:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->INTENT_ACTION_VIDEO_PLAY_FROM_SEARCH:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->KEY_PICK_IMAGES_HIGHLIGHT_ALBUM_ID:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->KEY_PICK_IMAGES_HIGHLIGHT_SEARCH_TEXT_QUERY:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->KEY_PICK_IMAGES_HIGHLIGHT_TYPE:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->MATCH_DEFAULT:I,public-api,system-api,test-api
 Landroid/provider/MediaStore;->MATCH_EXCLUDE:I,public-api,system-api,test-api
 Landroid/provider/MediaStore;->MATCH_INCLUDE:I,public-api,system-api,test-api
@@ -856,13 +841,6 @@ Landroid/provider/MediaStore;->MEDIA_IGNORE_FILENAME:Ljava/lang/String;,public-a
 Landroid/provider/MediaStore;->MEDIA_SCANNER_VOLUME:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->META_DATA_REVIEW_GALLERY_PREWARM_SERVICE:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->META_DATA_STILL_IMAGE_CAMERA_PREWARM_SERVICE:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->PICK_IMAGES_HIGHLIGHT_ALBUM_CAMERA:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->PICK_IMAGES_HIGHLIGHT_ALBUM_DOWNLOADS:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->PICK_IMAGES_HIGHLIGHT_ALBUM_FAVORITES:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->PICK_IMAGES_HIGHLIGHT_ALBUM_SCREENSHOTS:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->PICK_IMAGES_HIGHLIGHT_ALBUM_VIDEOS:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->PICK_IMAGES_HIGHLIGHT_TYPE_COLLAPSED:I,public-api,system-api,test-api
-Landroid/provider/MediaStore;->PICK_IMAGES_HIGHLIGHT_TYPE_EXPANDED:I,public-api,system-api,test-api
 Landroid/provider/MediaStore;->PICK_IMAGES_TAB_ALBUMS:I,public-api,system-api,test-api
 Landroid/provider/MediaStore;->PICK_IMAGES_TAB_IMAGES:I,public-api,system-api,test-api
 Landroid/provider/MediaStore;->QUERY_ARG_DEFER_SCAN:Ljava/lang/String;,system-api,test-api
@@ -874,11 +852,9 @@ Landroid/provider/MediaStore;->QUERY_ARG_MATCH_TRASHED:Ljava/lang/String;,public
 Landroid/provider/MediaStore;->QUERY_ARG_MEDIA_STANDARD_SORT_ORDER:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->QUERY_ARG_RELATED_URI:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->UNKNOWN_STRING:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->UPDATE_OEM_METADATA_PERMISSION:Ljava/lang/String;,system-api,test-api
 Landroid/provider/MediaStore;->VOLUME_EXTERNAL:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->VOLUME_EXTERNAL_PRIMARY:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->VOLUME_INTERNAL:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->bulkUpdateOemMetadataInNextScan(Landroid/content/Context;)V,system-api,test-api
 Landroid/provider/MediaStore;->canManageMedia(Landroid/content/Context;)Z,public-api,system-api,test-api
 Landroid/provider/MediaStore;->createDeleteRequest(Landroid/content/ContentResolver;Ljava/util/Collection;)Landroid/app/PendingIntent;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->createFavoriteRequest(Landroid/content/ContentResolver;Ljava/util/Collection;Z)Landroid/app/PendingIntent;,public-api,system-api,test-api
@@ -917,7 +893,6 @@ Landroid/provider/OemMetadataService;->BIND_OEM_METADATA_SERVICE_PERMISSION:Ljav
 Landroid/provider/OemMetadataService;->SERVICE_INTERFACE:Ljava/lang/String;,system-api,test-api
 Landroid/provider/OemMetadataService;->onBind(Landroid/content/Intent;)Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/provider/OemMetadataService;->onGetOemCustomData(Landroid/os/ParcelFileDescriptor;)Ljava/util/Map;,system-api,test-api
-Landroid/provider/OemMetadataService;->onGetOemCustomDataUsingMimeType(Landroid/os/ParcelFileDescriptor;Ljava/lang/String;)Ljava/util/Map;,system-api,test-api
 Landroid/provider/OemMetadataService;->onGetSupportedMimeTypes()Ljava/util/Set;,system-api,test-api
 Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda1;->onResult(Landroid/os/Bundle;)V,system-api,test-api
 Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda2;->onResult(Landroid/os/Bundle;)V,system-api,test-api
@@ -976,7 +951,6 @@ Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLamb
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda42;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda43;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda44;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda45;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -1014,8 +988,6 @@ Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$1;->newArray(I)[Ljava
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;-><init>()V,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;->build()Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo;,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;->setAccentColor(J)Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;,public-api,system-api,test-api
-Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;->setHighlightAlbumId(Ljava/lang/String;)Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;,public-api,system-api,test-api
-Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;->setHighlightSearchMediaTextQuery(Ljava/lang/String;)Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;->setMaxSelectionLimit(I)Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;->setMimeTypes(Ljava/util/List;)Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;->setOrderedSelection(Z)Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;,public-api,system-api,test-api
@@ -1024,8 +996,6 @@ Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo$Builder;->setThemeNig
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo;->CREATOR:Landroid/os/Parcelable$Creator;,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo;->describeContents()I,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo;->getAccentColor()J,public-api,system-api,test-api
-Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo;->getHighlightAlbumId()Ljava/lang/String;,public-api,system-api,test-api
-Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo;->getHighlightSearchMediaTextQuery()Ljava/lang/String;,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo;->getMaxSelectionLimit()I,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo;->getMimeTypes()Ljava/util/List;,public-api,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerFeatureInfo;->getPreSelectedUris()Ljava/util/List;,public-api,system-api,test-api

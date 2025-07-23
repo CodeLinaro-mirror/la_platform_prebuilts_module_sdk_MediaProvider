@@ -45,7 +45,6 @@ package android.graphics.pdf {
     method @NonNull public java.util.List<android.util.Pair<java.lang.Integer,android.graphics.pdf.component.PdfAnnotation>> getPageAnnotations();
     method @NonNull public java.util.List<android.util.Pair<java.lang.Integer,android.graphics.pdf.component.PdfPageObject>> getPageObjects();
     method @NonNull public java.util.List<android.graphics.pdf.content.PdfPageTextContent> getTextContents();
-    method @Nullable public android.util.Pair<java.lang.Integer,android.graphics.pdf.component.PdfPageObject> getTopPageObjectAtPosition(@NonNull android.graphics.PointF, @NonNull int[]);
     method @IntRange(from=0) public int getWidth();
     method public void removePageAnnotation(@IntRange(from=0) int);
     method public void removePageObject(@IntRange(from=0) int);
@@ -58,15 +57,11 @@ package android.graphics.pdf {
 
   public final class RenderParams {
     method public int getRenderFlags();
-    method public int getRenderFormContentMode();
     method public int getRenderMode();
     field public static final int FLAG_RENDER_FREETEXT_ANNOTATIONS = 16; // 0x10
     field public static final int FLAG_RENDER_HIGHLIGHT_ANNOTATIONS = 4; // 0x4
     field public static final int FLAG_RENDER_STAMP_ANNOTATIONS = 8; // 0x8
     field public static final int FLAG_RENDER_TEXT_ANNOTATIONS = 2; // 0x2
-    field public static final int RENDER_FORM_CONTENT_DEFAULT = 3; // 0x3
-    field public static final int RENDER_FORM_CONTENT_DISABLED = 2; // 0x2
-    field public static final int RENDER_FORM_CONTENT_ENABLED = 1; // 0x1
     field public static final int RENDER_MODE_FOR_DISPLAY = 1; // 0x1
     field public static final int RENDER_MODE_FOR_PRINT = 2; // 0x2
   }
@@ -76,7 +71,6 @@ package android.graphics.pdf {
     method @NonNull public android.graphics.pdf.RenderParams build();
     method @NonNull public android.graphics.pdf.RenderParams.Builder setRenderFlags(int);
     method @NonNull public android.graphics.pdf.RenderParams.Builder setRenderFlags(int, int);
-    method @NonNull public android.graphics.pdf.RenderParams.Builder setRenderFormContentMode(int);
   }
 
 }
