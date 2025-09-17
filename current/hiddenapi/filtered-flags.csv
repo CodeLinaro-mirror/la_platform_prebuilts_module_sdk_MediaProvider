@@ -237,7 +237,6 @@ Landroid/graphics/pdf/content/PdfPageTextContent;->describeContents()I,public-ap
 Landroid/graphics/pdf/content/PdfPageTextContent;->getBounds()Ljava/util/List;,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/content/PdfPageTextContent;->getText()Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/content/PdfPageTextContent;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
-Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
@@ -246,6 +245,7 @@ Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda8;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda9;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/readonly/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/readonly/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/models/FormEditRecord$$ExternalSyntheticLambda0;->get()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
@@ -1022,6 +1022,7 @@ Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLamb
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda49;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda50;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda51;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/media/internal/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
