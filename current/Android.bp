@@ -20,11 +20,6 @@ apex_contributions_defaults {
 
 prebuilt_bootclasspath_fragment {
     name: "com.android.mediaprovider-bootclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "mediaprovider_module" is true.
-    use_source_config_var: {
-        config_namespace: "mediaprovider_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.mediaprovider"],
     licenses: ["mediaprovider-module-sdk_Android-Apache-2.0"],
@@ -53,11 +48,6 @@ prebuilt_bootclasspath_fragment {
 
 prebuilt_platform_compat_config {
     name: "media-provider-platform-compat-config",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "mediaprovider_module" is true.
-    use_source_config_var: {
-        config_namespace: "mediaprovider_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     licenses: ["mediaprovider-module-sdk_Android-Apache-2.0"],
     metadata: "compat_configs/media-provider-platform-compat-config/media-provider-platform-compat-config_meta.xml",
@@ -72,11 +62,6 @@ prebuilt_platform_compat_config {
 
 java_sdk_library_import {
     name: "framework-mediaprovider",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "mediaprovider_module" is true.
-    use_source_config_var: {
-        config_namespace: "mediaprovider_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: [
         "com.android.mediaprovider",
@@ -113,11 +98,6 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "framework-pdf",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "mediaprovider_module" is true.
-    use_source_config_var: {
-        config_namespace: "mediaprovider_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.mediaprovider"],
     licenses: ["mediaprovider-module-sdk_Android-Apache-2.0"],
@@ -151,11 +131,6 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "framework-pdf-v",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "mediaprovider_module" is true.
-    use_source_config_var: {
-        config_namespace: "mediaprovider_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.mediaprovider"],
     licenses: ["mediaprovider-module-sdk_Android-Apache-2.0"],
@@ -195,7 +170,7 @@ java_sdk_library_import {
     shared_library: false,
     permitted_packages: [
         "android.widget.photopicker",
-        "com.android.providers.media.flags",
+        "android.provider.media.internal.flags",
     ],
     public: {
         jars: ["sdk_library/public/framework-photopicker-stubs.jar"],
@@ -228,4 +203,10 @@ license {
     visibility: ["//visibility:private"],
     license_kinds: ["SPDX-license-identifier-Apache-2.0"],
     license_text: ["licenses/build/soong/licenses/LICENSE"],
+}
+
+license {
+    name: "mediaprovider-module-sdk_opensourcerequest",
+    visibility: ["//visibility:private"],
+    license_text: ["licenses/build/soong/licenses/opensourcerequest"],
 }
