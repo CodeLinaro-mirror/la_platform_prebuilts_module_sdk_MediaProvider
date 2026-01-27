@@ -1,0 +1,7 @@
+signature,properties
+Landroid/graphics/pdf/PdfRenderer;->doClose()V,maxTargetSdk=30&trackingBug=170729553L
+Landroid/provider/MediaStore$Files$FileColumns;->STORAGE_ID:Ljava/lang/String;,maxTargetSdk=30&trackingBug=170729553L
+Landroid/provider/MediaStore$Files$FileColumns;->FORMAT:Ljava/lang/String;,
+Landroid/provider/MediaStore$Files;->getMtpObjectsUri(Ljava/lang/String;)Landroid/net/Uri;,
+Landroid/provider/MediaStore$Files;->getMtpObjectsUri(Ljava/lang/String;J)Landroid/net/Uri;,
+Landroid/provider/MediaStore$Files;->getMtpReferencesUri(Ljava/lang/String;J)Landroid/net/Uri;,
