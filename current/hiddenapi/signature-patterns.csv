@@ -100,6 +100,7 @@ android/provider/mediaprocessingservice/IQueryProcessingCallback
 android/provider/mediaprocessingservice/MediaProcessingRequest
 android/provider/mediaprocessingservice/MediaProcessingResponse
 android/provider/mediaprocessingservice/MediaProcessingService
+android/provider/mediaprocessingservice/MediaProcessingServiceWrapper
 android/provider/mediaprocessingservice/QueryProcessingResponse
 android/widget/photopicker/EmbeddedPhotoPickerClient
 android/widget/photopicker/EmbeddedPhotoPickerClientWrapper
@@ -114,4 +115,6 @@ android/widget/photopicker/IEmbeddedPhotoPicker
 android/widget/photopicker/IEmbeddedPhotoPickerClient
 android/widget/photopicker/IEmbeddedPhotoPickerSession
 android/widget/photopicker/ParcelableException
+android/widget/photopicker/PhotoPickerSelectionParams
+android/widget/photopicker/PhotoPickerUiCustomizationParams
 android/widget/photopicker/Placeholder
