@@ -225,6 +225,8 @@ package android.provider {
     field public static final String EXTRA_PICK_IMAGES_IN_ORDER = "android.provider.extra.PICK_IMAGES_IN_ORDER";
     field public static final String EXTRA_PICK_IMAGES_LAUNCH_TAB = "android.provider.extra.PICK_IMAGES_LAUNCH_TAB";
     field public static final String EXTRA_PICK_IMAGES_MAX = "android.provider.extra.PICK_IMAGES_MAX";
+    field public static final String EXTRA_PICK_IMAGES_SELECTION_PARAMS = "android.provider.extra.PICK_IMAGES_SELECTION_PARAMS";
+    field public static final String EXTRA_PICK_IMAGES_UI_CUSTOMIZATION_PARAMS = "android.provider.extra.PICK_IMAGES_UI_CUSTOMIZATION_PARAMS";
     field public static final String EXTRA_SCREEN_ORIENTATION = "android.intent.extra.screenOrientation";
     field public static final String EXTRA_SHOW_ACTION_ICONS = "android.intent.extra.showActionIcons";
     field public static final String EXTRA_SIZE_LIMIT = "android.intent.extra.sizeLimit";
