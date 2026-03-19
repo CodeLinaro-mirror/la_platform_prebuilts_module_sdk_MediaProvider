@@ -27,9 +27,6 @@
   <compat-change enableAfterTargetSdk="35" id="203408344" name="LIMIT_CREATE_REQUEST_URIS">
     <meta-data definedIn="com.android.providers.media.MediaProvider" />
   </compat-change>
-  <compat-change enableAfterTargetSdk="36" id="461429441" name="TRASH_BEHAVIOR_CHANGE">
-    <meta-data definedIn="com.android.providers.media.MediaProvider" />
-  </compat-change>
   <compat-change disabled="true" id="174228127" name="FORCE_ENABLE_HEVC_SUPPORT">
     <meta-data definedIn="com.android.providers.media.TranscodeHelperImpl" />
   </compat-change>
