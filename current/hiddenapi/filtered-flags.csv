@@ -1213,6 +1213,10 @@ Landroid/widget/photopicker/EmbeddedPhotoPickerSessionWrapper;->notifyPhotoPicke
 Landroid/widget/photopicker/EmbeddedPhotoPickerSessionWrapper;->notifyResized(II)V,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerSessionWrapper;->notifyVisibilityChanged(Z)V,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerSessionWrapper;->requestRevokeUriPermission(Ljava/util/List;)V,public-api,sdk,system-api,test-api
+Landroid/widget/photopicker/EmbeddedPhotoPickerUiCustomizationParams$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/widget/photopicker/EmbeddedPhotoPickerUiCustomizationParams$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/widget/photopicker/EmbeddedPhotoPickerUiCustomizationParams;->describeContents()I,public-api,sdk,system-api,test-api
+Landroid/widget/photopicker/EmbeddedPhotoPickerUiCustomizationParams;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/IEmbeddedPhotoPicker$Default;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/IEmbeddedPhotoPicker$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/IEmbeddedPhotoPicker$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
