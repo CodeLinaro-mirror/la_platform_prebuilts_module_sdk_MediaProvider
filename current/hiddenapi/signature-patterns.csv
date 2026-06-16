@@ -103,7 +103,6 @@ android/widget/photopicker/EmbeddedPhotoPickerSerialExecutor
 android/widget/photopicker/EmbeddedPhotoPickerSession
 android/widget/photopicker/EmbeddedPhotoPickerSessionResponse
 android/widget/photopicker/EmbeddedPhotoPickerSessionWrapper
-android/widget/photopicker/EmbeddedPhotoPickerUiCustomizationParams
 android/widget/photopicker/IEmbeddedPhotoPicker
 android/widget/photopicker/IEmbeddedPhotoPickerClient
 android/widget/photopicker/IEmbeddedPhotoPickerSession
