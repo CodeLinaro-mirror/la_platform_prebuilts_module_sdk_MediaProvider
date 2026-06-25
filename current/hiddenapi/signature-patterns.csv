@@ -27,10 +27,6 @@ android/graphics/pdf/flags/FakeFeatureFlagsImpl
 android/graphics/pdf/flags/FeatureFlags
 android/graphics/pdf/flags/FeatureFlagsImpl
 android/graphics/pdf/flags/Flags
-android/graphics/pdf/flags/readonly/CustomFeatureFlags
-android/graphics/pdf/flags/readonly/FakeFeatureFlagsImpl
-android/graphics/pdf/flags/readonly/FeatureFlags
-android/graphics/pdf/flags/readonly/FeatureFlagsImpl
 android/graphics/pdf/flags/readonly/Flags
 android/graphics/pdf/logging/PdfEventLogger
 android/graphics/pdf/models/FormEditRecord
@@ -76,16 +72,11 @@ android/provider/OemMetadataServiceWrapper
 android/provider/OpenAssetFileRequest
 android/provider/OpenFileRequest
 android/provider/ParcelableException
-android/provider/SearchMediaCallback
 android/provider/SearchMediaException
 android/provider/SearchMediaResult
 android/provider/SearchMediaResultPage
 android/provider/SearchMediaService
 android/provider/VerificationLogsHelper
-android/provider/media/internal/flags/CustomFeatureFlags
-android/provider/media/internal/flags/FakeFeatureFlagsImpl
-android/provider/media/internal/flags/FeatureFlags
-android/provider/media/internal/flags/FeatureFlagsImpl
 android/provider/media/internal/flags/Flags
 android/provider/mediacognitionutils/GetProcessingVersionsCallbackImpl
 android/provider/mediacognitionutils/ICognitionGetVersionsCallbackInternal
@@ -101,6 +92,7 @@ android/provider/mediaprocessingservice/IQueryProcessingCallback
 android/provider/mediaprocessingservice/MediaProcessingRequest
 android/provider/mediaprocessingservice/MediaProcessingResponse
 android/provider/mediaprocessingservice/MediaProcessingService
+android/provider/mediaprocessingservice/MediaProcessingServiceWrapper
 android/provider/mediaprocessingservice/QueryProcessingResponse
 android/widget/photopicker/EmbeddedPhotoPickerClient
 android/widget/photopicker/EmbeddedPhotoPickerClientWrapper
@@ -115,4 +107,6 @@ android/widget/photopicker/IEmbeddedPhotoPicker
 android/widget/photopicker/IEmbeddedPhotoPickerClient
 android/widget/photopicker/IEmbeddedPhotoPickerSession
 android/widget/photopicker/ParcelableException
+android/widget/photopicker/PhotoPickerSelectionParams
+android/widget/photopicker/PhotoPickerUiCustomizationParams
 android/widget/photopicker/Placeholder
