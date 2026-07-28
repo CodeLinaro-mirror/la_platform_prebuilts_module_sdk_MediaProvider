@@ -186,6 +186,7 @@ package android.provider {
     method @Nullable public static android.content.res.AssetFileDescriptor openAssetFileDescriptor(@NonNull android.content.ContentResolver, @NonNull android.net.Uri, @NonNull String, @Nullable android.os.CancellationSignal) throws java.io.FileNotFoundException;
     method @Nullable public static android.os.ParcelFileDescriptor openFileDescriptor(@NonNull android.content.ContentResolver, @NonNull android.net.Uri, @NonNull String, @Nullable android.os.CancellationSignal) throws java.io.FileNotFoundException;
     method @Nullable public static android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(@NonNull android.content.ContentResolver, @NonNull android.net.Uri, @NonNull String, @Nullable android.os.Bundle, @Nullable android.os.CancellationSignal) throws java.io.FileNotFoundException;
+    method @Nullable public static android.database.Cursor queryDeletedFiles(@NonNull android.content.ContentResolver, @Nullable android.os.Bundle, @Nullable android.os.CancellationSignal);
     method @NonNull @RequiresPermission(value=android.Manifest.permission.MANAGE_EXTERNAL_STORAGE, conditional=true) public static String restoreFileFromTrash(@NonNull android.content.ContentResolver, @NonNull String, @Nullable String);
     method @Deprecated @NonNull public static android.net.Uri setIncludePending(@NonNull android.net.Uri);
     method @NonNull public static android.net.Uri setRequireOriginal(@NonNull android.net.Uri);
@@ -227,6 +228,7 @@ package android.provider {
     field public static final String EXTRA_PICK_IMAGES_MAX = "android.provider.extra.PICK_IMAGES_MAX";
     field public static final String EXTRA_PICK_IMAGES_SELECTION_PARAMS = "android.provider.extra.PICK_IMAGES_SELECTION_PARAMS";
     field public static final String EXTRA_PICK_IMAGES_UI_CUSTOMIZATION_PARAMS = "android.provider.extra.PICK_IMAGES_UI_CUSTOMIZATION_PARAMS";
+    field public static final String EXTRA_REQUEST_LOCATION_METADATA_ACCESS = "android.provider.extra.REQUEST_LOCATION_METADATA_ACCESS";
     field public static final String EXTRA_SCREEN_ORIENTATION = "android.intent.extra.screenOrientation";
     field public static final String EXTRA_SHOW_ACTION_ICONS = "android.intent.extra.showActionIcons";
     field public static final String EXTRA_SIZE_LIMIT = "android.intent.extra.sizeLimit";
@@ -418,6 +420,16 @@ package android.provider {
     field public static final String ENTRY_CONTENT_TYPE = "vnd.android.cursor.item/radio";
   }
 
+  public static final class MediaStore.DeletedFiles {
+    method @NonNull public static android.net.Uri getContentUri(@NonNull String);
+  }
+
+  public static interface MediaStore.DeletedFiles.DeletedFilesColumns extends android.provider.BaseColumns {
+    field public static final String DELETED_GENERATION = "deleted_generation";
+    field public static final String MEDIA_TYPE = "media_type";
+    field public static final String VOLUME_NAME = "volume_name";
+  }
+
   public static interface MediaStore.DownloadColumns extends android.provider.MediaStore.MediaColumns {
     field public static final String DOWNLOAD_URI = "download_uri";
     field public static final String REFERER_URI = "referer_uri";
@@ -463,6 +475,7 @@ package android.provider {
     field public static final String DESCRIPTION = "description";
     field public static final String EXPOSURE_TIME = "exposure_time";
     field public static final String F_NUMBER = "f_number";
+    field public static final String HAS_GAIN_MAP = "has_gain_map";
     field public static final String ISO = "iso";
     field public static final String IS_PRIVATE = "isprivate";
     field @Deprecated public static final String LATITUDE = "latitude";
