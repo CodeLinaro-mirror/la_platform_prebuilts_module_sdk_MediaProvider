@@ -237,6 +237,8 @@ Landroid/graphics/pdf/content/PdfPageTextContent;->describeContents()I,public-ap
 Landroid/graphics/pdf/content/PdfPageTextContent;->getBounds()Ljava/util/List;,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/content/PdfPageTextContent;->getText()Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/content/PdfPageTextContent;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
+Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda11;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/graphics/pdf/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
@@ -1211,6 +1213,10 @@ Landroid/widget/photopicker/EmbeddedPhotoPickerSessionWrapper;->notifyPhotoPicke
 Landroid/widget/photopicker/EmbeddedPhotoPickerSessionWrapper;->notifyResized(II)V,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerSessionWrapper;->notifyVisibilityChanged(Z)V,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/EmbeddedPhotoPickerSessionWrapper;->requestRevokeUriPermission(Ljava/util/List;)V,public-api,sdk,system-api,test-api
+Landroid/widget/photopicker/EmbeddedPhotoPickerUiCustomizationParams$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/widget/photopicker/EmbeddedPhotoPickerUiCustomizationParams$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/widget/photopicker/EmbeddedPhotoPickerUiCustomizationParams;->describeContents()I,public-api,sdk,system-api,test-api
+Landroid/widget/photopicker/EmbeddedPhotoPickerUiCustomizationParams;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/IEmbeddedPhotoPicker$Default;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/IEmbeddedPhotoPicker$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/widget/photopicker/IEmbeddedPhotoPicker$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
