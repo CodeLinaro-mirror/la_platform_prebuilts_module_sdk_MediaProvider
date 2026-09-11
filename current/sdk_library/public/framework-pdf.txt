@@ -60,6 +60,7 @@ package android.graphics.pdf {
     method public int getRenderFlags();
     method public int getRenderFormContentMode();
     method public int getRenderMode();
+    method public int getRenderPageObjectFlags();
     field public static final int FLAG_RENDER_FREETEXT_ANNOTATIONS = 16; // 0x10
     field public static final int FLAG_RENDER_HIGHLIGHT_ANNOTATIONS = 4; // 0x4
     field public static final int FLAG_RENDER_STAMP_ANNOTATIONS = 8; // 0x8
@@ -69,6 +70,10 @@ package android.graphics.pdf {
     field public static final int RENDER_FORM_CONTENT_ENABLED = 1; // 0x1
     field public static final int RENDER_MODE_FOR_DISPLAY = 1; // 0x1
     field public static final int RENDER_MODE_FOR_PRINT = 2; // 0x2
+    field public static final int RENDER_PAGE_OBJECT_EXCLUDE_IMAGE = 4; // 0x4
+    field public static final int RENDER_PAGE_OBJECT_EXCLUDE_NONE = 0; // 0x0
+    field public static final int RENDER_PAGE_OBJECT_EXCLUDE_PATH = 2; // 0x2
+    field public static final int RENDER_PAGE_OBJECT_EXCLUDE_TEXT = 8; // 0x8
   }
 
   public static final class RenderParams.Builder {
@@ -77,6 +82,7 @@ package android.graphics.pdf {
     method @NonNull public android.graphics.pdf.RenderParams.Builder setRenderFlags(int);
     method @NonNull public android.graphics.pdf.RenderParams.Builder setRenderFlags(int, int);
     method @NonNull public android.graphics.pdf.RenderParams.Builder setRenderFormContentMode(int);
+    method @NonNull public android.graphics.pdf.RenderParams.Builder setRenderPageObjectFlags(int);
   }
 
 }
