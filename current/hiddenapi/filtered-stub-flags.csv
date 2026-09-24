@@ -95,6 +95,7 @@ Landroid/graphics/pdf/RenderParams$Builder;->build()Landroid/graphics/pdf/Render
 Landroid/graphics/pdf/RenderParams$Builder;->setRenderFlags(I)Landroid/graphics/pdf/RenderParams$Builder;,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams$Builder;->setRenderFlags(II)Landroid/graphics/pdf/RenderParams$Builder;,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams$Builder;->setRenderFormContentMode(I)Landroid/graphics/pdf/RenderParams$Builder;,public-api,system-api,test-api
+Landroid/graphics/pdf/RenderParams$Builder;->setRenderPageObjectFlags(I)Landroid/graphics/pdf/RenderParams$Builder;,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->FLAG_RENDER_FREETEXT_ANNOTATIONS:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->FLAG_RENDER_HIGHLIGHT_ANNOTATIONS:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->FLAG_RENDER_STAMP_ANNOTATIONS:I,public-api,system-api,test-api
@@ -104,9 +105,14 @@ Landroid/graphics/pdf/RenderParams;->RENDER_FORM_CONTENT_DISABLED:I,public-api,s
 Landroid/graphics/pdf/RenderParams;->RENDER_FORM_CONTENT_ENABLED:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->RENDER_MODE_FOR_DISPLAY:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->RENDER_MODE_FOR_PRINT:I,public-api,system-api,test-api
+Landroid/graphics/pdf/RenderParams;->RENDER_PAGE_OBJECT_EXCLUDE_IMAGE:I,public-api,system-api,test-api
+Landroid/graphics/pdf/RenderParams;->RENDER_PAGE_OBJECT_EXCLUDE_NONE:I,public-api,system-api,test-api
+Landroid/graphics/pdf/RenderParams;->RENDER_PAGE_OBJECT_EXCLUDE_PATH:I,public-api,system-api,test-api
+Landroid/graphics/pdf/RenderParams;->RENDER_PAGE_OBJECT_EXCLUDE_TEXT:I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->getRenderFlags()I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->getRenderFormContentMode()I,public-api,system-api,test-api
 Landroid/graphics/pdf/RenderParams;->getRenderMode()I,public-api,system-api,test-api
+Landroid/graphics/pdf/RenderParams;->getRenderPageObjectFlags()I,public-api,system-api,test-api
 Landroid/graphics/pdf/component/FreeTextAnnotation;-><init>(Landroid/graphics/RectF;Ljava/lang/String;)V,public-api,system-api,test-api
 Landroid/graphics/pdf/component/FreeTextAnnotation;->getBackgroundColor()I,public-api,system-api,test-api
 Landroid/graphics/pdf/component/FreeTextAnnotation;->getBounds()Landroid/graphics/RectF;,public-api,system-api,test-api
@@ -945,9 +951,9 @@ Landroid/provider/OemMetadataService;->onGetOemCustomData(Landroid/os/ParcelFile
 Landroid/provider/OemMetadataService;->onGetOemCustomDataUsingMimeType(Landroid/os/ParcelFileDescriptor;Ljava/lang/String;)Ljava/util/Map;,system-api,test-api
 Landroid/provider/OemMetadataService;->onGetSupportedMimeTypes()Ljava/util/Set;,system-api,test-api
 Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda1;->onResult(Landroid/os/Bundle;)V,system-api,test-api
-Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda2;->onResult(Landroid/os/Bundle;)V,system-api,test-api
+Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda2;->call()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda3;->call()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda4;->call()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda4;->onResult(Landroid/os/Bundle;)V,system-api,test-api
 Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda5;->onResult(Landroid/os/Bundle;)V,system-api,test-api
 Landroid/provider/OemMetadataServiceWrapper$$ExternalSyntheticLambda6;->call()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/provider/OpenAssetFileRequest$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
